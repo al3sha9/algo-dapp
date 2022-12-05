@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="pb-10 "
+  >
+    <div
+      class=" text-center py-10 bg-gradient-to-l from-green-400 to-blue-400"
+    >
+      <h1
+        class=" text-5xl font-thin mars"
+      >
+        ALGORAND DAPP 1.0
+      </h1>
+    </div>
+    <hr />
+    <div
+      class="flex"
+    >
+      <div
+        class=" w-3/6 px-4 py-12"
+      >
+        <div
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+        >
+          <div
+            class="w-full shadow-2xl border-1 border-black-300 sm:w-auto px-4 py-10 rounded-xl bg-white text-black mb-6 sm:mb-0"
+          >
+            <h4
+              class="text-xl"
+            >
+              CREATE YOU TESTNET WALLET
+            </h4>
+            <br />
+            <input
+              class="form-input mb-2  px-4 py-2 rounded-full"
+              name="username"
+              placeholder="NAME"
+              type="text"
+            />
+            <br />
+            <input
+              class="form-input mb-2 mt-3 px-4 py-2 rounded-full"
+              name="email"
+              placeholder="EMAIL"
+              type="email"
+            />
+            <br />
+            <button
+              class=" border-indigo-600 rounded-full px-4 mx-2 py-2 bg-blue-500 font-bold  text-white"
+            >
+              Create Account
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class=" w-3/6 px-4 py-12"
+      >
+        <div
+          class="mx-auto max-w-7xl px-4 border-1 border-black-300 sm:px-6 lg:px-8 shadow-2xl sm:w-auto py-10 rounded-xl bg-white text-black"
+        >
+          <span
+            class="font-light"
+          >
+            Wallet Address
+          </span>
+          <h4
+            class="text-base font-bold  border-gray-200 border- p-4 "
+          >
+             
+          </h4>
+          <br />
+          <span
+            class="font-light"
+          >
+            Wallet Amount
+          </span>
+          <p
+            class="text-base font-bold  border-gray-200 border- p-2 "
+          />
+          <span
+            class="font-light"
+          >
+            Wallet Mnemonic
+          </span>
+          <p
+            class="text-base font-bold  border-gray-200 border- p-4 "
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex"
+    >
+      <div
+        class=" w-3/6 px-4"
+      >
+        <div
+          class="mx-auto max-w-7xl border-1 border-black-300 sm:px-6 lg:px-8 shadow-2xl sm:w-auto px-4 py-10 rounded-xl bg-white text-black"
+        >
+          <h2
+            class="text-base font-bold  border-gray-200 border- p-2"
+          >
+            CURRENCY INFORMATION
+          </h2>
+          <img
+            class="mt-2 mb-2"
+            width="50px"
+          />
+          <h2
+            class="pt-2 pb-2 font-light"
+          >
+            BlockChain Name: 
+          </h2>
+          <p
+            class="pt-2 pb-2 font-light"
+          >
+            Current Market Price: 
+             $
+          </p>
+          <p
+            class="pt-2 pb-2 font-light"
+          >
+            RANK:
+          </p>
+          <p
+            class="pt-2 pb-4 font-light"
+          >
+            Market Cap: 
+            $
+          </p>
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+          >
+            Refresh Data
+          </button>
+        </div>
+      </div>
+      <div
+        class=" w-3/6 px-4 py-12"
+      >
+        <div
+          class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+        >
+          <div
+            class="w-full shadow-2xl border-1 border-black-300 sm:w-auto px-4 py-10 rounded-xl bg-white text-black mb-6 sm:mb-0"
+          >
+            <h2
+              class="text-base font-bold  border-gray-200 border- p-2"
+            >
+              SEND ALGOS
+            </h2>
+            <input
+              class="form-input px-4 py-2 rounded-full"
+              name="account"
+              placeholder="RECIEVER ACCOUNT"
+              type="text"
+            />
+            <br />
+            <input
+              class="form-input mb-2 mt-3 px-4 py-2 rounded-full"
+              name="amount"
+              placeholder="TOTAL ALGOS"
+              type="number"
+            />
+            <br />
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            >
+              SEND
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
